@@ -1,0 +1,131 @@
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Psykeros - Consultorio de Psicología | Dra. María De Jesús Pérez Martínez</title>
+  <meta name="description" content="Psykeros - Consultorio psicológico en Piedras Negras. Evaluaciones, psicoterapia y supervisión clínica. Reserva tu cita fácilmente.">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="icon" href="/assets/images/logo.png">
+  <!-- SEO / Social -->
+  <meta property="og:title" content="Psykeros - Dra. María De Jesús Pérez Martínez">
+  <meta property="og:description" content="Consultorio de psicología en Piedras Negras — Evaluación clínica, psicoterapia individual y supervisión.">
+  <meta property="og:image" content="/assets/images/logo.png">
+</head>
+<body>
+  <header class="container header">
+    <div class="brand">
+      <img src="/assets/images/logo.png" alt="Psykeros logo">
+      <div>
+        <div style="font-weight:700">Psykeros</div>
+        <div class="small-muted">Consultorio de Psicología</div>
+      </div>
+    </div>
+    <nav class="nav">
+      <a href="/index.html" class="small-muted" data-en="Home" data-es="Inicio">Inicio</a>
+      <a href="/services.html" class="small-muted" data-en="Services" data-es="Servicios">Servicios</a>
+      <a href="/blog.html" class="small-muted" data-en="Blog" data-es="Blog">Blog</a>
+      <a href="/gallery.html" class="small-muted" data-en="Gallery" data-es="Galería">Galería</a>
+      <a href="/contact.html" class="small-muted" data-en="Contact" data-es="Contacto">Contacto</a>
+      <button id="langToggle" class="lang-toggle" title="Cambiar idioma">EN/ES</button>
+      <a class="btn" href="/booking.html" data-en="Book" data-es="Reservar cita">Reservar cita</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <div class="hero-card">
+          <h1 class="h1" data-en="Personalized psychological care with Dr. María De Jesús Pérez Martínez" data-es="Atención psicológica personalizada con la Dra. María De Jesús Pérez Martínez">Atención psicológica personalizada con la Dra. María De Jesús Pérez Martínez</h1>
+          <p class="lead" data-en="Evidence-based therapy, discreet and professional. Available in Spanish and English." data-es="Terapia basada en evidencia, discreta y profesional. Disponible en español e inglés.">Terapia basada en evidencia, discreta y profesional. Disponible en español e inglés.</p>
+          <div class="cta-row">
+            <a class="btn" href="/booking.html" data-en="Book an appointment" data-es="Reservar una cita">Reservar una cita</a>
+            <a class="btn" href="/contact.html" data-en="Contact" data-es="Contáctanos">Contáctanos</a>
+          </div>
+        </div>
+
+        <div style="margin-top:12px" class="card">
+          <h3 class="small-muted" data-en="Services overview" data-es="Resumen de servicios">Resumen de servicios</h3>
+          <div class="services">
+            <div><strong>Evaluación clínica</strong><div class="small-muted">Adultos • 1500 MXN</div></div>
+            <div><strong>Supervisión de casos</strong><div class="small-muted">Por sesión • 500 MXN</div></div>
+            <div><strong>Psicoterapia individual</strong><div class="small-muted">Por sesión • 500 MXN</div></div>
+          </div>
+        </div>
+
+      </div>
+
+      <aside>
+        <div class="card">
+          <h3 class="small-muted" data-en="Quick booking" data-es="Reserva rápida">Reserva rápida</h3>
+          <form id="bookForm">
+            <input type="text" name="name" placeholder="Nombre completo" required>
+            <input type="email" name="email" placeholder="Correo electrónico" required style="margin-top:8px">
+            <input type="tel" name="phone" placeholder="Teléfono" required style="margin-top:8px">
+            <label style="font-size:13px;margin-top:8px">Servicio</label>
+            <select name="service">
+              <option value="evaluacion">Evaluación clínica - 1500 MXN</option>
+              <option value="supervision">Supervisión de casos - 500 MXN</option>
+              <option value="psicoterapia">Psicoterapia individual - 500 MXN</option>
+            </select>
+            <label style="font-size:13px;margin-top:8px">Fecha y hora</label>
+            <input type="datetime-local" name="datetime" required>
+            <button class="btn" style="margin-top:10px" type="submit">Pedir cita</button>
+          </form>
+          <p class="small-muted" style="margin-top:8px">También puedes escribir vía WhatsApp</p>
+          <a class="btn" href="https://api.whatsapp.com/send?phone=5218787023641&text=Hola%20Psykeros%21%20Necesito%20ayuda" target="_blank">WhatsApp</a>
+        </div>
+      </aside>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="section-title">
+        <h3 class="small-muted" data-en="About the clinic" data-es="Sobre el consultorio">Sobre el consultorio</h3>
+        <a href="/about.html" class="small-muted" data-en="Learn more" data-es="Conoce más">Conoce más</a>
+      </div>
+      <div class="card">
+        <div class="grid-2">
+          <div>
+            <p>Dirección: calle Matamoros 500, 3er piso despacho 4, Colonia Centro, Piedras Negras Coahuila, Mexico C.P. 26000</p>
+            <p>Tel (MX): +52 8787023641</p>
+            <p class="small-muted">Próximamente: número de teléfono de EE. UU.</p>
+          </div>
+          <div>
+            <img class="resp-img" src="/assets/images/office_placeholder.jpg" alt="Consultorio">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="margin-top:18px">
+      <div class="section-title">
+        <h3 class="small-muted" data-en="Testimonials" data-es="Testimonios">Testimonios</h3>
+        <a href="/testimonials.html" class="small-muted" data-en="Read all" data-es="Leer todos">Leer todos</a>
+      </div>
+      <div class="testimonials">
+        <div class="card">"Excelente atención, muy profesional." — Cliente</div>
+        <div class="card">"Me ayudó con mis metas terapéuticas." — Cliente</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="container footer">
+    <div style="display:flex;justify-content:space-between;align-items:center">
+      <div>
+        © <strong>Psykeros</strong> — Dra. María De Jesús Pérez Martínez
+        <div class="small-muted">Calle Matamoros 500, Piedras Negras, Coah.</div>
+      </div>
+      <div style="display:flex;gap:8px;align-items:center">
+        <a class="small-muted" href="https://www.facebook.com/share/17HmUd1niY/" target="_blank">Facebook</a>
+        <a class="small-muted" href="#" target="_blank">Google Maps</a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="fab" href="https://api.whatsapp.com/send?phone=5218787023641&text=Hola%20Psykeros%21%20Necesito%20ayuda" title="WhatsApp">WA</a>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
